@@ -46,6 +46,6 @@ public class HandAnimator : MonoBehaviour
         handAnimator.SetFloat("Grip", currentGrip);
         handAnimator.SetFloat("Trigger", currentTrigger);
 
-        Debug.Log($"Grip: {currentGrip}, Trigger: {currentTrigger}");
+        // Debug.Log($"Grip: {currentGrip}, Trigger: {currentTrigger}");
     }
 }
